@@ -1,6 +1,6 @@
 const beeps = process.argv.slice(2);
 
-const timer = function(times) {
+const timer = (times) => {
   for (let i = 0; i < times.length; i++) {
     if (times[i] > 0) {
       let alertSet = times[i] * 1000;
